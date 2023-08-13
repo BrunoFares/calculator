@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+div.row {
+    background-color: rgb(105, 105, 105);
+    height: 16.65vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+div.row div {
+    width: 90px;
+    font-size: 35px;
+    
+}
+
+div.row div:hover {
+    background-color: rgb(58, 58, 58);
+}
