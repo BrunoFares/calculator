@@ -1,6 +1,11 @@
 * {
     margin: 0;
     padding: 0;
+    height: 100hv;
+}
+
+html, body {
+    height: 100%;
 }
 
 body {
@@ -9,18 +14,21 @@ body {
 }
 
 div.row {
-    background-color: rgb(105, 105, 105);
-    height: 16.65vh;
+    background-color: rgb(146, 146, 146);
     display: flex;
     justify-content: space-around;
+    flex: 1;
 }
 
 div.row div {
     width: 90px;
-    font-size: 35px;
-    
+    font-size: 45px;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 div.row div:hover {
-    background-color: rgb(58, 58, 58);
+    background-color: rgb(114, 114, 114);
 }
