@@ -11,6 +11,7 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 div.row {
@@ -31,4 +32,9 @@ div.row div {
 
 div.row div:hover {
     background-color: rgb(114, 114, 114);
+}
+
+div#screen {
+    justify-content: flex-end;
+    padding-right: 5%;
 }
