@@ -91,16 +91,16 @@ function operate() {
     for (let i = 0; i < opNums.length; i++) {
         switch (opOpers[i]){
         case '+':
-            opNums[i] = add(+opNums[i], +opNums[i+1])
+            opNums[0] = add(+opNums[0], +opNums[i+1])
             break;
         case '-':
-            opNums[i] = subtract(+opNums[i], +opNums[i+1])
+            opNums[0] = subtract(+opNums[0], +opNums[i+1])
             break;
         case '*':
-            opNums[i] = multiply(+opNums[i], +opNums[i+1])
+            opNums[0] = multiply(+opNums[0], +opNums[i+1])
             break;
         case '/':
-            opNums[i] = divide(+opNums[i], +opNums[i+1])
+            opNums[0] = divide(+opNums[0], +opNums[i+1])
             break;
         }
     }
